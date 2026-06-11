@@ -1,0 +1,26 @@
+{
+  "name": "operator-graph",
+  "version": "0.0.1",
+  "description": "Visualize any onboarded operator-os as an interactive knowledge graph.",
+  "type": "module",
+  "bin": {
+    "operator-graph": "bin/operator-graph.mjs"
+  },
+  "scripts": {
+    "start": "node bin/operator-graph.mjs"
+  },
+  "keywords": [
+    "operator-os",
+    "obsidian",
+    "knowledge-graph",
+    "visualization"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nexuschains/operator-graph.git"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

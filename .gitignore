@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Rendered output — NEVER commit (a rendered vault can contain client data)
+graph.html
+/out/
+*.rendered.html
+
+# Temp clones of target vaults
+/tmp-clones/
+
+# Environment / secrets
+.env
+.env.local
+*.local
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
